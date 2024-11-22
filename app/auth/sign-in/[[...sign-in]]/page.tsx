@@ -1,11 +1,7 @@
-/* eslint-disable @typescript-eslint/no-empty-object-type */
-import React from 'react';
 import { SignIn } from '@clerk/nextjs';
+import React from 'react';
 
-type Props = {};
-
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const SignInPage = (props: Props) => {
+const SignInPage = () => {
     return <SignIn />;
 };
 
